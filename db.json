@@ -1,0 +1,86 @@
+{
+    "profissionais": [
+        {
+            "id": 1,
+            "imagem": "https://imgur.com/imkS67m.png",
+            "nome": "Ana Luiza",
+            "especialidade": "Clínico Geral",
+            "nota": 4.5
+        },
+        {
+            "id": 2,
+            "imagem": "https://imgur.com/iyFgXHb.png",
+            "nome": "Caroline Carvalho",
+            "especialidade": "Nutricionista",
+            "nota": 4.6
+        },
+        {
+            "id": 3,
+            "imagem": "https://imgur.com/ho9CUwp.png",
+            "nome": "Camila Fernanda",
+            "especialidade": "Oftamologista",
+            "nota": 4.3
+        },
+        {
+            "id": 4,
+            "imagem": "https://imgur.com/sVAFzFy.png",
+            "nome": "Bruno Divino",
+            "especialidade": "Psiquiatra",
+            "nota": 4.7
+        }
+    ],
+    "consultas": [
+        {
+            "id": 1,
+            "data": "2022-01-24",
+            "horario": "08:30",
+            "profissional": [
+                {
+                    "nome": "Ana Luiza",
+                    "especialidade": "Clínico Geral"
+                }
+            ],
+            "paciente": "Larissa Gabriela",
+            "modalidade": "Particular"
+        },
+        {
+            "id": 2,
+            "data": "2022-01-25",
+            "horario": "08:30",
+            "profissional": [
+                {
+                    "nome": "Caroline Carvalho",
+                    "especialidade": "Nutricionista"
+                }
+            ],
+            "paciente": "Guilherme Lira",
+            "modalidade": "Particular"
+        }
+    ],
+    "avaliacoes": [
+        {
+            "id": 1,
+            "data": "2022-04-01",
+            "horario": "10:30",
+            "profissional": [
+                {
+                    "nome": "Ana Luiza",
+                    "especialidade": "Clínico Geral"
+                }
+            ],
+            "nota": 4.5
+        },
+        {
+            "id": 2,
+            "data": "2022-04-01",
+            "horario": "10:30",
+            "profissional": [
+                {
+                    "nome": "Caroline Carvalho",
+                    "especialidade": "Nutricionista"
+                }
+            ],
+            "nota": 4.5
+        }
+    ]
+}
