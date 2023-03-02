@@ -3,8 +3,15 @@ import { Bar } from "recharts/types/cartesian/Bar";
 import { XAxis } from "recharts/types/cartesian/XAxis";
 import { YAxis } from "recharts/types/cartesian/YAxis";
 import { BarChart } from "recharts/types/chart/BarChart";
+import IConsulta from "../../types/IConsulta";
+import IProfissional from "../../types/IProfissional";
 
-function Grafico() {
+interface Props {
+    profissionais: IProfissional,
+    consultas: IConsulta
+}
+
+function Grafico({ profissionais, consultas }: Props) {
     return (
         <ResponsiveContainer width="100%" height={350}>
             <BarChart
