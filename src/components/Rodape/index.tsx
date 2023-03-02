@@ -1,5 +1,8 @@
-import styled from 'styled-components';
+import whatsapp from './assets/whatsapp.png';
+import instagram from './assets/instagram.png';
+import google from './assets/google.png';
 import facebook from './assets/facebook.png';
+import styled from 'styled-components';
 
 const RodapeEstilizado = styled.footer`
 height: 100%;
@@ -29,10 +32,26 @@ function Rodape() {
                         <img src={facebook} alt="logo do facebook" />
                     </a>
                 </ItemEstilizado>
+                <ItemEstilizado>
+                    <a href="#">
+                        <img src={whatsapp} alt="logo do whatsapp" />
+                    </a>
+                </ItemEstilizado>
+                <ItemEstilizado>
+                    <a href="#">
+                        <img src={google} alt="logo do google" />
+                    </a>
+                </ItemEstilizado>
+                <ItemEstilizado>
+                    <a href="#">
+                        <img src={instagram} alt="logo do instagram" />
+                    </a>
+                </ItemEstilizado>
             </ListaEstilizada>
             <p>2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
         </RodapeEstilizado>
     )
 }
+
 
 export default Rodape;
