@@ -5,13 +5,20 @@ import { YAxis } from "recharts/types/cartesian/YAxis";
 import { BarChart } from "recharts/types/chart/BarChart";
 import IConsulta from "../../types/IConsulta";
 import IProfissional from "../../types/IProfissional";
+import useDadosGrafico from "./useDadosGrafico";
 
 interface Props {
-    profissionais: IProfissional,
-    consultas: IConsulta
+    profissionais: IProfissional[] | null,
+    consultas: IConsulta[] | null
+}
+
+interface IDados {
+    nome: string,
+    consultas: number
 }
 
 function Grafico({ profissionais, consultas }: Props) {
+    let dados: Array<IDados> = useDadosGrafico({ profissionais, consultas });
     return (
         <ResponsiveContainer width="100%" height={350}>
             <BarChart
