@@ -1,46 +1,22 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React com Typescript: desenvolvendo uma área administrativa com MUI, Recharts e Styled Components](https://imgur.com/Qgf3van.png)
 
-## Available Scripts
+# React com Typescript: desenvolvendo uma área administrativa
 
-In the project directory, you can run:
+Este projeto faz parte da escola Front-end e tem como objetivo ensinar a construção de uma página de área administrativa utilizando React com Typescript e as bibliotecas Styled-Components, MUI e Recharts.
 
-### `npm start`
+## Funcionalidades do projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A página de área administrativa terá as seguintes funcionalidades:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Dashboard: Página principal com tabela, gráficos e informações.
 
-### `npm test`
+## Técnicas e tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As técnicas e tecnologias que serão utilizadas neste projeto são:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React: Biblioteca para construção de interfaces de usuário.
+- Typescript: Linguagem de programação que adiciona tipagem estática ao Javascript.
+- Styled-Components: Biblioteca para estilização de componentes React utilizando CSS-in-JS.
+- MUI: Biblioteca de componentes React para criação de interfaces de usuário modernas e responsivas.
+- Recharts: Biblioteca para criação de gráficos utilizando React.
